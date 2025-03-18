@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+}
+
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    background-color: yellow;
+}
+
+header {
+    background-color: cyan;
+}
+
+a {
+    color: beige;
+}
+

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: yellowgreen;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/620d31ef7e5d342037b2ecde/51354761-b904-499b-92cb-f273aaa8802f/LEMON-JELLY-CAFE-DUBLIN-9.jpg);
+}
+
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    background-color: yellow;
+}
+
+header {
+    background-color: cyan;
+}
+
+a {
+    color: beige;
+}
+
