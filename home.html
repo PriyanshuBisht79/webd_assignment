@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Dublin</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to Dublin</h1>
+    </header>
+
+    <section>
+        <h2>Fare Calculator</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+        <button onclick="calculateFare()">Check Fare</button>
+        <p id="fareOutput"></p>
+    </section>
+
+    <section>
+        <h2>Food Preference</h2>
+        <label for="userName">Your Name:</label>
+        <input type="text" id="userName">
+        <label for="food">Favorite Cuisine:</label>
+        <input type="text" id="food">
+        <button onclick="showFoodPreference()">Submit</button><br>
+        <textarea id="foodOutput" readonly></textarea>
+    </section>
+
+    <video width="320" height="240" controls>
+                <source src="video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+    </video>
+    
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="places1.html">Place 1</a></li>
+                <li><a href="places2.html">Place 2</a></li>
+                <li><a href="places3.html">Place 3</a></li>
+                <li><a href="places4.html">Place 4</a></li>
+            </ul>
+        </nav>    
+    </footer>
+</body>
+</html>
